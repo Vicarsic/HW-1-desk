@@ -1,102 +1,142 @@
 <!DOCTYPE html>
 <html lang="ru">
 
-    <head>
-        <meta charset="UTF-8" />
-        <title>Веб студія mango.dev</title>
-        <link rel="stylesheet" href="./css/styles.css">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homework#2</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+</head>
 
-    <body>
-        
-        <a href="" class="test-link"></a>
-        <!-- Page header -->
-        <header>
-            <!-- The logo is always a link -->
-            <a href="/">
-                <img src="https://www.flaticon.com/svg/static/icons/svg/616/616475.svg" alt="Webstudio logo" width="32" />
-                Mango.dev
+<body class="page">
+    <!-- Шапка -->
+    <header class="header">
+        <nav class="site-nav">
+            <a href="">
+                <span class="logo-accent">Web</span>
+                <span class="logo-black">Studio</span>
             </a>
-    
-            <!-- Main navigation -->
-            <nav>
-                <!--Links to other pages or sections of the current page -->
-                <ul>
-                    <li><a href="">Portfolio</a></li>
-                    <li><a href="">Contacts</a></li>
-                    <li><a href="">About</a></li>
-                </ul>
-            </nav>
-        </header>
-    
-        <!-- Unique page content -->
-        <main>
-            <!-- Features section -->
-            <section>
-                <h2>Features</h2>
-    
-                <ul>
-                    <li>
-                        <img src="https://cdn.pixabay.com/photo/2015/09/09/19/56/office-932926_1280.jpg"
-                        alt="Workplace in the company" width="320" />
-                        <h3>Experience</h3>
-                        <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius
-                        repellendus voluptates sequi natus accusantium adipisci ratione
-                        laborum sunt, modi nemo?
-                        </p>
-                    </li>
-                    <li>
-                        <img src="https://cdn.pixabay.com/photo/2015/05/31/10/55/man-791049_1280.jpg"
-                            alt="A man holds a tablet in his hands and drinks coffee" width="320" />
-                        <h3>Technology stack</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius
-                            repellendus voluptates sequi natus accusantium adipisci ratione
-                            laborum sunt, modi nemo?
-                        </p>
-                    </li>
-                    <li>
-                        <img src="https://cdn.pixabay.com/photo/2018/03/10/12/00/paper-3213924_1280.jpg"
-                         alt="Four hands in a gesture of mutual assistance" width="320" />
-                        <h3>Support</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius
-                            repellendus voluptates sequi natus accusantium adipisci ratione
-                            laborum sunt, modi nemo?
-                        </p>
-                    </li>
-                </ul>
-            </section>
-    
-            <!-- Technology stack section -->
-            <section>
-                <h2>Our technology stack</h2>
-    
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>React</li>
-                    <li>Next.js</li>
-                    <li>Node.js</li>
-                    <li>PostgreSQL</li>
-                </ul>
-            </section>
-        </main>
-    
-            <!-- Page footer -->
-        <footer>
-            <p>All rights reserved &copy;mango.dev</p>
-    
-            <p>Our contacts in social networks</p>
+
             <ul>
-                <li><a href="">Facebook</a></li>
-                <li><a href="">Twitter</a></li>
-                <li><a href="">Instagram</a></li>
+                <li><a id="studio" href="./index.html" class="link">Студия</a></li>
+                <li><a href="./portfolio.html" class="link">Портфолио</a></li>
+                <li><a href="./index.html" class="link">Контакты</a></li>
             </ul>
-    
-            <button type="button">Request a call back</button>
-        </footer>
-    </body>
+        </nav>
+        <ul class="contact">
+            <li><a class="contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a class="contact-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <!-- Герой -->
+        <section class="hero">
+            <h1 class="hero-title">ЭФФЕКТИВНОЕ РЕШЕНИЕ
+                <br>
+                ДЛЯ ВАШЕГО БИЗНЕСА
+            </h1>
+
+            <button class="button" type="button">
+                Заказать услугу
+            </button>
+        </section>
+
+        <!--Особенности  features-->
+        <section class="section">
+            <h2 class="section-title">Преимущества</h2>
+            <ul class="features-list">
+                <li>
+                    <h3 class="title">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
+
+                    <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                </li>
+                <li>
+                    <h3 class="title">ПУНКТУАЛЬНОСТЬ</h3>
+
+                    <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                </li>
+                <li>
+                    <h3 class="title">ПЛАНИРОВАНИЕ</h3>
+
+                    <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                </li>
+                <li>
+                    <h3 class="title">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
+
+                    <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Чем занимаемся? -->
+        <section class="section">
+            <h2 class="section-title">Чем мы занимаемся</h2>
+            <ul class="work-list">
+                <li>
+                    <img src="./images/work/img1.jpg" alt="Работник пишет код" width="370">
+                </li>
+                <li>
+                    <img src="./images/work/img2.jpg" alt="Работник создает инетрфейс" width="370">
+                </li>
+                <li>
+                    <img src="./images/work/img3.jpg" alt="Работник подбирает цвет" width="370">
+                </li>
+            </ul>
+        </section>
+
+        <!-- Наша команда -->
+        <section class="section section-staff">
+            <h2 class="section-title">Наша команда</h2>
+            <ul class="staff-name">
+                <li>
+                    <img src="./images/staff/img1.jpg" alt="Фото работника" width="270">
+                    <h3 class="name">Игорь Демьяненко</h3>
+                    <p class="position">Product Designer</p>
+                </li>
+                <li>
+                    <img src="./images/staff/img2.jpg" alt="Фото работника" width="270">
+                    <h3 class="name">Ольга Репина</h3>
+                    <p class="position">Frontend Developer</p>
+                </li>
+                <li>
+                    <img src="./images/staff/img3.jpg" alt="Фото работника" width="270">
+                    <h3 class="name">Николай Тарасов</h3>
+                    <p class="position">Marketing</p>
+                </li>
+                <li>
+                    <img src="./images/staff/img4.jpg" alt="Фото работника" width="270">
+                    <h3 class="name">Михаил Ермаков</h3>
+                    <p class="position">UI Designer</p>
+                </li>
+            </ul>
+
+        </section>
+    </main>
+
+    <footer class="page-footer">
+        <a href="">
+            <span class="logo-accent">Web</span>
+            <span class="logo-white">Studio</span>
+        </a>
+
+        <address>
+            <ul>
+                <li><a class="text-info" rel="noopener noreferrer" target="_blank">г. Киев, пр-т Леси Украинки, 26</a>
+                </li>
+                <li>
+                    <a class="info" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+                <li>
+                    <a class="info" href="tel:+380961111111">+38 096 111 11 11</a>
+                </li>
+            </ul>
+        </address>
+    </footer>
+</body>
+
 </html>
